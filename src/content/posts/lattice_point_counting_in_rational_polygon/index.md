@@ -94,8 +94,10 @@ $$
 证明：我们首先尝试用 $N(a,b,c)$ 来表示 $T(a,b,c)$ 的面积。我们不妨认为 $T(a,b,c)$ 内部的每一个格点都代表了它左下方的单位正方形，那么 $T(a,b,c)$ 内部的所有完整单位正方形就等于其内部的格点数，即 $N(a,b,c)$。然后，我们再将 $T(a,b,c)$ 去除掉单位正方形的剩余部分以 $x=i,i\in N^+$ 划分为 $m$ 个梯形 $S_i$ 和一个三角形 $R$，如下图1所示
 
 <figure>
-  <img src="index.assets/image-20240923185008279.png" alt="描述" />
-  <figcaption>图1. 三角形 T(a,b,c) 的分解</figcaption>
+
+![描述](./index.assets/image-20240923185008279.png)
+
+<figcaption>图1. 三角形 T(a,b,c) 的分解</figcaption>
 </figure>  
 
 然后梯形 $S_i$ 的面积就能用 `(上底 + 下底) * 高 / 2` 的公式表达为
@@ -108,8 +110,10 @@ $$
 如下图2所示
 
 <figure>
-  <img src="index.assets/image-20240923185415466.png" alt="描述" />
-  <figcaption>图2. 区域Si</figcaption>
+
+![描述](./index.assets/image-20240923185415466.png)
+
+<figcaption>图2. 区域Si</figcaption>
 </figure>  
 
 三角形 $R$ 的面积则可以表示为（利用直线 $ax+by=c$ 必定经过点 $(m,h)$ 的性质）
@@ -127,8 +131,10 @@ $$
 根据上方的符号定义可知，直线 $ax+by=c$ 必定经过点 $(m,h)$ 和 $(0,c/b)$；我们不难验证直线 $(a-bk)x+by=c^\prime$ 必定经过点 $(m,\{h\})$ 和 $(0,c^\prime/b)$。
 
 <figure>
-  <img src="index.assets/image-20240923190818865.png" alt="描述" />
-  <figcaption>图3. 直线 ax+by=c 和 (a-bk)x+by=c'</figcaption>
+
+![描述](./index.assets/image-20240923190818865.png)
+
+<figcaption>图3. 直线 ax+by=c 和 (a-bk)x+by=c'</figcaption>
 </figure>  
 
 并且很容易证明 $a-bk\gt 0$，即 $a-b\lfloor(a-1)/b\rfloor\gt 0$。
@@ -202,4 +208,4 @@ $$
 $$
 而梯形的格点计算只需要将直角梯形分成一个矩形+一个直角三角形即可（或者两个直角三角形相减），剩下的都是一些细节上的操作。
 
-一个例题是[ABC372G\] Ax + By < C](https://atcoder.jp/contests/abc372/tasks/abc372_g)。
+一个例题是 [ \[ABC372G\] Ax + By < C](https://atcoder.jp/contests/abc372/tasks/abc372_g)。

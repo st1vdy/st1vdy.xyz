@@ -2,9 +2,9 @@
 title: Hello World
 published: 2026-03-18
 description: ''
-image: ''
+image: './69057856_p0.jpg'
 tags: []
-category: ''
+category: '系统'
 draft: false 
 lang: ''
 ---
