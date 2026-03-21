@@ -113,7 +113,14 @@
 }
 
 .custom-md img, #post-cover img {
-    @apply cursor-zoom-in
+    @apply cursor-zoom-in mx-auto block
+}
+
+.custom-md figure {
+    @apply flex flex-col items-center my-4;
+}
+.custom-md figcaption {
+    @apply text-sm text-gray-500 dark:text-gray-400 mt-2;
 }
 
 ::selection {

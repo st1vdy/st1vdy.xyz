@@ -1,9 +1,10 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+你好，这里是 st1vdy，来自浙江德清。我本科毕业于浙江工业大学计算机科学与技术专业，硕士毕业于浙江大学软件工程专业。
 
-::github{repo="saicaca/fuwari"}
+我的编程之旅始于算法竞赛。本科期间，我与队友 Suzukaze_Kiseki、qcwlmqy 组队多次参加 ICPC/CCPC，并获得了 2020 ICPC EC-Final 银牌。
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+研究生期间，我探索过计算机视觉、计算机图形学及机器学习系统等方向，最终将重心聚焦于 **现代C++编程** 与 **AI基础架构**。毕业后，我计划加入字节跳动推荐架构，研究大规模高并发系统的稳定运行与算力优化，探索算法与工程架构的平衡。
+
+生活方面，我的爱好是编程与游戏，游戏方面的兴趣主要集中于策略类、自动化类游戏以及 JRPG。
+
+如果你对我的文章或爱好感兴趣，欢迎通过 [邮件](mailto:atkatss@gmail.com) 或 [QQ](https://qm.qq.com/q/VcpLevlI0c) 联系我。
